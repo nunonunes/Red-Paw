@@ -13,7 +13,7 @@ install:
   - arduino --install-library "Servo"
 
 script:
-  - arduino --verify --board ${BOARD} $PWD/Red-Paw/Red-Paw.pde
+  - arduino --verify --board ${BOARD} $PWD/RedPawCricket/RedPawCricket.pde
 
 notifications:
   email:
